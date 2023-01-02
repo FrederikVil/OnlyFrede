@@ -14936,7 +14936,8 @@ var init_page_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/_page.svelte.js"() {
     init_chunks();
     Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<div style="${"display: flex; justify-content: center;"}"><video src="${"./frede.mp4"}" autoplay controls loop></video></div>`;
+      return `<div style="${"display: flex; justify-content: center;"}"><video src="${"./frede.mp4"}" autoplay controls loop></video>
+</div>`;
     });
   }
 });
@@ -14956,8 +14957,8 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     index3 = 2;
     component3 = async () => (await Promise.resolve().then(() => (init_page_svelte(), page_svelte_exports))).default;
-    file3 = "_app/immutable/components/pages/_page.svelte-b47d869d.js";
-    imports3 = ["_app/immutable/components/pages/_page.svelte-b47d869d.js", "_app/immutable/chunks/index-92993a8b.js"];
+    file3 = "_app/immutable/components/pages/_page.svelte-744655b3.js";
+    imports3 = ["_app/immutable/components/pages/_page.svelte-744655b3.js", "_app/immutable/chunks/index-92993a8b.js"];
     stylesheets3 = [];
     fonts3 = [];
   }
@@ -17791,7 +17792,7 @@ function set_paths(paths) {
   base = paths.base;
   assets = paths.assets || base;
 }
-var app_template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width" />\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n";
+var app_template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\r\n		<meta name="viewport" content="width=device-width" />\r\n		' + head + '\r\n	</head>\r\n	<body data-sveltekit-preload-data="hover">\r\n		<div style="display: contents">' + body + "</div>\r\n	</body>\r\n</html>\r\n";
 var error_template = ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -17864,7 +17865,7 @@ var Server = class {
       app_template,
       app_template_contains_nonce: false,
       error_template,
-      version: "1672524663369"
+      version: "1672652961885"
     };
   }
   async init({ env }) {
@@ -17896,7 +17897,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png", "frede.mp4"]),
   mimeTypes: { ".png": "image/png", ".mp4": "video/mp4" },
   _: {
-    entry: { "file": "_app/immutable/start-412863e7.js", "imports": ["_app/immutable/start-412863e7.js", "_app/immutable/chunks/index-92993a8b.js", "_app/immutable/chunks/singletons-9888da1c.js"], "stylesheets": [], "fonts": [] },
+    entry: { "file": "_app/immutable/start-007d5f02.js", "imports": ["_app/immutable/start-007d5f02.js", "_app/immutable/chunks/index-92993a8b.js", "_app/immutable/chunks/singletons-9888da1c.js"], "stylesheets": [], "fonts": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
