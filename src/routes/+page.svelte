@@ -7,4 +7,4 @@
     onMount(() => {
         document.getElementsByTagName('video')[0].play()
     })
-</script>
+</script>dfdff
